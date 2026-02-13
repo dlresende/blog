@@ -1,0 +1,49 @@
+<script>
+(function() {
+  function initLoadMore() {
+    var postsList = document.querySelector('.posts-list');
+    var nextLink = document.querySelector('.pagination.main-pager .page-item.next a');
+    if (!postsList || !nextLink) return;
+
+    nextLink.addEventListener('click', function(e) {
+      e.preventDefault();
+      var url = nextLink.getAttribute('href');
+      if (!url) return;
+
+      nextLink.style.pointerEvents = 'none';
+      nextLink.setAttribute('aria-busy', 'true');
+
+      fetch(url)
+        .then(function(res) { return res.text(); })
+        .then(function(html) {
+          var parser = new DOMParser();
+          var doc = parser.parseFromString(html, 'text/html');
+          var newPosts = doc.querySelectorAll('.posts-list .post-preview');
+          for (var i = 0; i < newPosts.length; i++) {
+            postsList.appendChild(newPosts[i].cloneNode(true));
+          }
+
+          var nextPager = doc.querySelector('.pagination.main-pager .page-item.next a');
+          if (nextPager && nextPager.getAttribute('href')) {
+            nextLink.setAttribute('href', nextPager.getAttribute('href'));
+            nextLink.style.pointerEvents = '';
+          } else {
+            var pager = nextLink.closest('.pagination.main-pager');
+            if (pager) pager.remove();
+          }
+          nextLink.removeAttribute('aria-busy');
+        })
+        .catch(function() {
+          nextLink.style.pointerEvents = '';
+          nextLink.removeAttribute('aria-busy');
+        });
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initLoadMore);
+  } else {
+    initLoadMore();
+  }
+})();
+</script>
