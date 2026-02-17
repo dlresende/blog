@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-gem "jekyll", "~> 3.9"
+gem "jekyll", "~> 4.4"
 gem "kramdown-parser-gfm"  # GitHub Flavored Markdown for kramdown
 gem "jekyll-remote-theme"  # For Beautiful Jekyll theme (local build)
 gem "jekyll-paginate"     # Required by Beautiful Jekyll
