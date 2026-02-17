@@ -2,7 +2,6 @@
 
 source "https://rubygems.org"
 
-# Ruby 2.7+ recommended for local build. GitHub Pages uses Jekyll 3.9.
 gem "jekyll", "~> 3.9"
 gem "kramdown-parser-gfm"  # GitHub Flavored Markdown for kramdown
 gem "jekyll-remote-theme"  # For Beautiful Jekyll theme (local build)
