@@ -2,6 +2,7 @@
 layout: post
 title: "HTTPS explained to my Product Manager"
 date: 2018-05-10 00:00:00 +0000
+tags: ["https", "ssl", "tls", "tls handshake"]
 ---
 
 Recently, I've been working adding TLS to some of the products I work with, mainly TLS over HTTP (also known as [HTTPS](https://pt.wikipedia.org/wiki/Hyper_Text_Transfer_Protocol_Secure)).

@@ -2,6 +2,7 @@
 layout: post
 title: "Test Doubles"
 date: 2018-11-04 00:00:00 +0000
+tags: ["test doubles", "testing", "testing strategy", "tests"]
 ---
 
 Sometimes when writing tests or defining a testing strategy, we need to replace part of a system at run time with a modified version, in order to set up, simplify, isolate or verify a particular behaviour.

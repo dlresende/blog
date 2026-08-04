@@ -2,6 +2,7 @@
 layout: post
 title: "My first questions (and answers) about Clojure"
 date: 2017-09-10 00:00:00 +0000
+tags: ["clojure", "faq", "fp", "functional programming"]
 ---
 
 One of the services my current team maintains was written in Clojure. Being a big fan of meetups, user groups, conferences, and [brown-bag lunches](http://www.brownbaglunch.fr/), I have had the occasion to read some Clojure code in the past and write some hello worlds.

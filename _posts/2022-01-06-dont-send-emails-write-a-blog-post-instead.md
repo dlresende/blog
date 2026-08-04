@@ -2,6 +2,7 @@
 layout: post
 title: "Don't send emails, write a blog post instead"
 date: 2022-01-06 00:00:00 +0000
+tags: ["communication", "emails", "enterprise", "experiment", "pull system", "push system"]
 ---
 
 Enterprise communication is hard.

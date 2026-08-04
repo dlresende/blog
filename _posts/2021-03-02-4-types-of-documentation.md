@@ -2,6 +2,7 @@
 layout: post
 title: "4 types of documentation"
 date: 2021-03-02 00:00:00 +0000
+tags: ["docs", "documentation"]
 ---
 
 The other day I was listening [The art of reading the docs episode](https://changelog.com/gotime/167) from the Go Time podcast and someone mentioned this [What nobody tells you about documentation talk](https://www.youtube.com/watch?v=t4vKPhjcMZg) from Daniele Procida at PyCon AU 2017.

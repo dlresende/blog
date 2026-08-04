@@ -2,6 +2,7 @@
 layout: post
 title: "De facto Best Practices"
 date: 2022-03-04 00:00:00 +0000
+tags: ["best practices", "cheat sheets", "standards"]
 ---
 
 Here's a collection of articles I found myself referring back to over and over again. They became over time de facto standards, cheat sheets and best practices for software development to me.

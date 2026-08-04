@@ -2,6 +2,7 @@
 layout: post
 title: "PXE booting"
 date: 2017-08-06 00:00:00 +0000
+tags: ["bios", "preseed", "preseeding", "proxydhcp", "pxe", "tftp", "ubuntu", "uefi", "unattended installation", "vagrant"]
 ---
 
 TL;DR The code used here is available on [Github](https://github.com/dlresende/pxe-server).

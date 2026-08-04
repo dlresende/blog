@@ -1,0 +1,21 @@
+{% comment %}
+  SlideShare embed.
+  Usage in Markdown or layout:
+    {% include slideshare.html id="EMBED_ID" %}
+  Optional: aspect ratio as a padding-bottom percentage (default 75, i.e. classic 4:3)
+    {% include slideshare.html id="EMBED_ID" ratio=81.91 %}
+{% endcomment %}
+{% if include.ratio %}
+  {% assign ratio = include.ratio %}
+{% else %}
+  {% assign ratio = 75 %}
+{% endif %}
+<div class="slides-embed slides-embed--slideshare" style="position: relative; padding-bottom: {{ ratio }}%; height: 0; overflow: hidden; max-width: 100%;">
+  <iframe
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+    src="https://www.slideshare.net/slideshow/embed_code/{{ include.id }}"
+    title="SlideShare presentation"
+    frameborder="0"
+    allowfullscreen
+  ></iframe>
+</div>

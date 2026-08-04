@@ -2,6 +2,7 @@
 layout: post
 title: "Extreme Carpaccio"
 date: 2016-01-07 00:00:00 +0000
+tags: ["agile", "elephant carpaccio", "extreme carpaccio", "extreme startup"]
 ---
 
 At the end of 2014, I started working for a well known French investment bank as Software Craftsmanship evangelist. About 2 or 3 years before, an ambitious program started being deployed across the organisation in a huge movement towards Continuous Delivery. I joined the agile and technical coaches' team in charge of the program as Craftsman Coach (as they use to call the role themselves). My job was to help development teams to improve software quality, stability and the delivery process, by introducing concepts like TDD, clean code, continuous refactoring, BDD, continuous integration, simple design, and so on.

@@ -2,6 +2,7 @@
 layout: post
 title: "Devoxx France 2016 : L'Odyssée du Continuous Delivery"
 date: 2016-06-01 00:00:00 +0000
+tags: ["agile", "continuous delivery", "deployment pipeline", "devoxx", "🇫🇷", "feature team", "release train", "talks", "toggle feature", "trunk based development"]
 ---
 
 Les 20, 21 et 22 avril a eu lieu à Paris la 5ème édition de la conférence [Devoxx France](http://www.devoxx.fr/). Issue de la communauté Java, Devoxx France s'est ouverte au fil des ans et accueille les développeurs en général.

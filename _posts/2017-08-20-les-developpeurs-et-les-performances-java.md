@@ -2,6 +2,7 @@
 layout: post
 title: "Les Développeurs et les Performances Java"
 date: 2017-08-20 00:00:00 +0000
+tags: ["devops", "🇫🇷", "java", "performance", "podcast", "talks", "tests"]
 ---
 
 Début 2014, [Eric Lefevre-Ardant](http://ericlefevre.net/) m'a invité à enregistrer une interview sur son podcast "Une Tasse de Thé". À cette époque-là, les performances Java étaient mon sujet de prédilection et nous avons donc échangé sur ce thème.

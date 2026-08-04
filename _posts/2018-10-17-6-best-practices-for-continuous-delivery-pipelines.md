@@ -2,6 +2,7 @@
 layout: post
 title: "6 Best Practices for Continuous Delivery Pipelines"
 date: 2018-10-17 00:00:00 +0000
+tags: ["automation", "concourse", "continuous delivery", "continuous deployment", "continuous integration", "deployment pipeline", "devops", "sre", "talks"]
 ---
 
 [Derik Evangelista](http://onion.works/) and I talked about pipelines' best practices during the [Cloud Foundry summit EU 2018 in Basel (CH)](https://www.cloudfoundry.org/event_subpages/cfeu-2018-schedule/). For instance, the practices are:

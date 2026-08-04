@@ -2,6 +2,7 @@
 layout: post
 title: "6 Best Practices for Continuous Delivery Pipelines @ London DevOps"
 date: 2019-03-30 00:00:00 +0000
+tags: ["concourse", "continuous delivery", "continuous deployment", "deployment pipeline", "devops", "talks"]
 ---
 
 Once again [Derik](https://onion.works/) and I delivered out 6 Best Practices for Continuous Delivery at [London DevOps](https://www.meetup.com/London-DevOps/events/259388318/). The meetup happened on March 14, 2019 and was hosted by Pivotal.

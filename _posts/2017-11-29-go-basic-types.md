@@ -2,6 +2,7 @@
 layout: post
 title: "Go: Basic Types"
 date: 2017-11-29 00:00:00 +0000
+tags: ["go", "golang", "programming"]
 ---
 
 These are just some notes I've taken from [The Go Programming Language by Alan A. A. Donovan & Brian W. Kernighan](http://www.gopl.io/) (which I strongly recommend if you are willing to learn Go).

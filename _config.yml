@@ -21,6 +21,7 @@ description: "Writing software that works (and occasionally taking notes)"
 
 navbar-links:
   Home: "index.html"
+  Tags: "tags"
   About: "about"
 
 ################
