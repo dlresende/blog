@@ -14,6 +14,7 @@ remote_theme: daattali/beautiful-jekyll
 title: "Diego's notes"
 author: "Diego Lemos"
 description: "Writing software that works (and occasionally taking notes)"
+url: "https://diegolemos.net"
 
 ###############################################
 # --- Navigation bar --- #
