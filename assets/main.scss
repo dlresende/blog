@@ -2,6 +2,9 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+$content-width: 1012px;
+$on-laptop:     1012px;
+
 @import "minima";
 
 .footer-col-1 {
