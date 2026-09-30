@@ -6,6 +6,14 @@ url: "https://diegolemos.net"
 
 show_excerpts: true
 
+# Social links
+github_username: dlresende
+linkedin_username: dlresende
+mastodon:
+  - username: dlresende
+    instance: mastodon.social
+rss: RSS
+
 # Minima theme settings
 theme: minima
 
