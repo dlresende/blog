@@ -1,0 +1,48 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+.footer-col-1 {
+  width: -webkit-calc(36% - (#{$spacing-unit} / 2));
+  width:         calc(36% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-2 {
+  width: -webkit-calc(38% - (#{$spacing-unit} / 2));
+  width:         calc(38% - (#{$spacing-unit} / 2));
+  text-align: center;
+}
+
+.footer-col-3 {
+  width: -webkit-calc(26% - (#{$spacing-unit} / 2));
+  width:         calc(26% - (#{$spacing-unit} / 2));
+}
+
+.social-media-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+
+  li {
+    margin: 0;
+  }
+
+  .svg-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@include media-query($on-laptop) {
+  .footer-col-1,
+  .footer-col-2,
+  .footer-col-3 {
+    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+    width:         calc(100% - (#{$spacing-unit} / 2));
+    float: none;
+    text-align: left;
+  }
+}

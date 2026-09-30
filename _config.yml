@@ -6,6 +6,9 @@ url: "https://diegolemos.net"
 
 show_excerpts: true
 
+# Creative Commons license
+creative_commons: "by-nc-nd/3.0"
+
 # Social links
 github_username: dlresende
 linkedin_username: dlresende
