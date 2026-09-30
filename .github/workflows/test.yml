@@ -11,7 +11,7 @@ concurrency:
 
 jobs:
   build:
-    name: Build site
+    name: Build and check HTML integrity
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -25,3 +25,9 @@ jobs:
 
       - name: Build site
         run: bundle exec jekyll build --trace --strict_front_matter
+
+      - name: Verify HTML and internal links
+        uses: peaceiris/actions-html-proofer@v1.2.5
+        with:
+          directory: './_site'
+          arguments: '--allow-hash-href --ignore-empty-alt true --disable-external'
