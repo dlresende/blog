@@ -18,7 +18,7 @@ Personal blog
 
 1. Create a repo (e.g. `dlresende.github.io` for a user site, or any repo with Pages enabled).
 2. Push this directory to the repo.
-3. In the repo **Settings → Pages**, set source to the default branch (e.g. `main`). GitHub will build the Jekyll site automatically.
+3. Deployments run automatically on pushes to `main` via GitHub Actions (`.github/workflows/deploy.yml`).
 
 ## Contents
 

@@ -1,68 +1,20 @@
-# Jekyll + Beautiful Jekyll theme
-# https://github.com/daattali/beautiful-jekyll
-
-############################
-# --- Theme --- #
-############################
-
-remote_theme: daattali/beautiful-jekyll
-
-############################
-# --- Site --- #
-############################
-
+# Site settings
 title: "Diego's notes"
 author: "Diego Lemos"
 description: "Writing software that works (and occasionally taking notes)"
 url: "https://diegolemos.net"
 
-###############################################
-# --- Navigation bar --- #
-###############################################
+# Minima theme settings
+theme: minima
 
-navbar-links:
-  Home: "index.html"
-  Tags: "tags"
-  About: "about"
+header_pages:
+  - about.md
+  - tags.md
 
-################
-# --- Footer --- #
-################
-
-# Optional: add social links (uncomment and fill as needed)
-# social-network-links:
-#   github: dlresende
-#   twitter: yourhandle
-#   linkedin: yourprofile
-
-rss: true
-url-pretty: "diegolemos.net"
-
-# Creative Commons license (optional; set to license path to show in footer, e.g. "by-nc-nd/3.0")
-creative_commons: "by-nc-nd/3.0"
-
-###########################
-# --- General --- #
-###########################
-
-title-on-all-pages: true
-excerpt_length: 50
-feed_show_excerpt: true
-feed_show_tags: true
-post_search: true
-date_format: "%B %-d, %Y"
-
-################
-# --- Build --- #
-################
-
+# Build settings
 markdown: kramdown
 highlighter: rouge
 permalink: /:year/:month/:day/:title/
-paginate: 5
-
-kramdown:
-  input: GFM
 
 defaults:
   - scope:
@@ -70,8 +22,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: false
-      social-share: true
   - scope:
       path: ""
     values:
@@ -84,6 +34,5 @@ exclude:
   - README.md
 
 plugins:
-  - jekyll-remote-theme
-  - jekyll-paginate
+  - jekyll-feed
   - jekyll-sitemap
