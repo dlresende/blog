@@ -1,7 +1,6 @@
 ---
 layout: page
-title: About Me
-subtitle: A bit about this blog and its author
+title: About
 ---
 
 I'm Diego Lemos de Resende, author of this blog.
