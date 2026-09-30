@@ -4,6 +4,8 @@ author: "Diego Lemos"
 description: "Writing software that works (and occasionally taking notes)"
 url: "https://diegolemos.net"
 
+show_excerpts: true
+
 # Minima theme settings
 theme: minima
 
