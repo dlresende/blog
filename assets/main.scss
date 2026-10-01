@@ -5,7 +5,19 @@
 $content-width: 1012px;
 $on-laptop:     1012px;
 
+$brand-color:      #0366d6;
+$text-color:       #24292e;
+$background-color: #ffffff;
+$grey-color:       #586069;
+$grey-color-light: #eaecef;
+$grey-color-dark:  #24292e;
+
 @import "minima";
+
+a:hover {
+  color: $brand-color;
+  text-decoration: underline;
+}
 
 .footer-col-1 {
   width: -webkit-calc(36% - (#{$spacing-unit} / 2));
