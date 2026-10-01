@@ -107,6 +107,11 @@ hr {
   border: 0;
 }
 
+.site-header {
+  border-top: 0;
+  border-bottom: 1px solid $grey-color-light;
+}
+
 .footer-col-1 {
   width: -webkit-calc(36% - (#{$spacing-unit} / 2));
   width:         calc(36% - (#{$spacing-unit} / 2));
