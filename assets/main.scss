@@ -54,6 +54,23 @@ pre,
   }
 }
 
+blockquote {
+  padding: 0 1em;
+  color: #6a737d;
+  border-left: 0.25em solid #dfe2e5;
+  font-style: normal;
+  letter-spacing: normal;
+  font-size: 100%;
+
+  > :first-child {
+    margin-top: 0;
+  }
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
 .footer-col-1 {
   width: -webkit-calc(36% - (#{$spacing-unit} / 2));
   width:         calc(36% - (#{$spacing-unit} / 2));
